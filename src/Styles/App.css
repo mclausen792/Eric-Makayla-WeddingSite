@@ -1,0 +1,108 @@
+body {
+  background-image: url('possibleWeddingBackground.jpg');
+  background-size: cover;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+}
+
+.rsvp {
+  color: white;
+}
+
+.invite {
+  color: white;
+}
+
+.registry {
+  background-color: #A9DDED;
+  width: 50vw;
+  height: 100vh;
+  margin-left: 25%;
+  margin-top: 4%;
+  border-radius: 10%;
+}
+
+.registryHead {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 6vh;
+  color: #E5E5E5;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-top: 2%;
+}
+
+.cbImage {
+  width: 40%;
+  margin-left: 6%;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.tinggly {
+  width: 30%;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.amazonImg {
+  width: 40%;
+  margin-left: 6%;
+}
+
+.rei {
+  width: 40%;
+  margin-left: 6%;
+  margin-top: 4%;
+}
+
+.zola {
+  width: 40%;
+  margin-left: 32%;
+  margin-top: 8%;
+}
+
+.app-header {
+  text-align: center;
+  height: 150px;
+  padding: 0;
+  color: #EDDAFA;
+}
+
+.header-title {
+  font-size: 10vh;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0;
+  margin-top: 1.5%;
+}
+
+.date {
+  font-size: 5vh;
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+  margin-bottom: 4%;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  font-size: 2vh;
+  font-family: 'Abel', sans-serif;
+  margin-top: 0;
+  margin-right: 4%;
+  margin-left: 4%;
+  text-decoration: underline;
+  color: #E5E5E5;
+}
