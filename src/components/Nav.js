@@ -5,17 +5,17 @@ import '../Styles/App.css';
   render(){
     return(
       <div className="nav">
-        <a href = 'Invite'
+        <a className = "topNav" href = 'Invite'
           onClick = {this.props.goToDetails}>
           <span> Details</span>
         </a>
 
-        <a href = 'Registry'
+        <a className = "topNav" href = 'Registry'
           onClick = {this.props.goToRegistry}>
           <span>Registry</span>
         </a>
 
-        <a href = 'RSVP'
+        <a className = "topNav" href = 'RSVP'
           onClick = {this.props.goToRSVP}>
             <span>RSVP</span>
           </a>
