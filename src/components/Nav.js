@@ -7,7 +7,7 @@ import '../Styles/App.css';
       <div className="nav">
         <a className = "topNav" href = 'Invite'
           onClick = {this.props.goToDetails}>
-          <span> Details</span>
+          <span> Invitation</span>
         </a>
 
         <a className = "topNav" href = 'Registry'
