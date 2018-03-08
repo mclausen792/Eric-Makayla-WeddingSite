@@ -35,13 +35,16 @@ body {
   padding: 2%;
   font-size: 2vh;
   margin-top: 2%;
+  background-color: #E5E5E5;
 }
 
 button {
   margin-top: 2%;
-  width: 20%;
+  width: 30%;
+  font-size: 80%;
   padding: 1%;
-  border-radius: 40%;
+  background-color: black;
+  color: #E5E5E5;
 }
 
 .images {
