@@ -6,7 +6,7 @@ class RSVP extends Component {
   render() {
     return (
       <div className="rsvp">
-        <h1 className = "rsvpHead"> RSVP </h1>
+        <h1 className = "rsvpHead"> Please RSVP by November 1, 2018 </h1>
         <form className = "rsvpForm">
           <label>Name:</label>
           <input className = "rsvpInput" placeholder="First Name" required/>
