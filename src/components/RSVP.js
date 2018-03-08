@@ -7,6 +7,15 @@ class RSVP extends Component {
     return (
       <div className="rsvp">
         <h1 className = "rsvpHead"> RSVP </h1>
+        <form className = "rsvpForm">
+          <label>Name:</label>
+          <input className = "rsvpInput" placeholder="First Name" required/>
+          <input className = "rsvpInput" placeholder="Last Name" required/>
+          <label>Attending?</label>
+          <input className = "rsvpInput" placeholder ="Yes/No" required/>
+          <input className = "rsvpInput" placeholder = "# attending"/>
+          <button>Submit</button>
+        </form>
 
       </div>
     );

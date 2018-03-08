@@ -3,13 +3,50 @@ body {
   background-size: cover;
 }
 
+.rsvp {
+  background-color: #A9DDED;
+  width: 50vw;
+  height: 70vh;
+  margin-left: 25%;
+  margin-top: 3%;
+  border-radius: 10%;
+}
+
+.rsvpHead {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 6vh;
+  color: #E5E5E5;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  margin-top: 2%;
+}
+
+.rsvpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 4vh;
+}
+
+.rsvpInput {
+  width: 70%;
+  text-align: center;
+  padding: 2%;
+  font-size: 2vh;
+  margin-top: 2%;
+}
+
+button {
+  margin-top: 2%;
+  width: 20%;
+  padding: 1%;
+  border-radius: 40%;
+}
+
 .images {
   display: flex;
   flex-direction: row;
-}
-
-.rsvp {
-  color: white;
 }
 
 .invite {
