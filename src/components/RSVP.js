@@ -16,7 +16,6 @@ class RSVP extends Component {
           <input className = "rsvpInput" placeholder = "# attending"/>
           <button>Submit</button>
         </form>
-
       </div>
     );
   }
