@@ -5,6 +5,8 @@ import Header from './Header'
 import Invite from './Invite'
 import Registry from './Registry'
 import RSVP from './RSVP'
+import Guests from './Guests'
+import Footer from './Footer'
 
 
 class App extends Component {
@@ -15,7 +17,7 @@ class App extends Component {
       invite: false,
       registry: false,
       rsvp: false,
-      admin: false
+      guests: false
     }
   }
   goToDetails = (e) =>{
@@ -24,7 +26,7 @@ class App extends Component {
       invite:true,
       registry: false,
       rsvp: false,
-      admin: false
+      guests: false
     })
     e.preventDefault()
   }
@@ -34,7 +36,7 @@ class App extends Component {
       invite:false,
       registry: true,
       rsvp: false,
-      admin: false
+      guests: false
     })
     e.preventDefault()
   }
@@ -44,7 +46,18 @@ class App extends Component {
       invite:false,
       registry: false,
       rsvp: true,
-      admin: false
+      guests: false
+    })
+    e.preventDefault()
+  }
+
+  goToGuests = (e) =>{
+    this.setState({
+      home: false,
+      invite: false,
+      registry: false,
+      rsvp: false,
+      guests: true
     })
     e.preventDefault()
   }
@@ -66,6 +79,13 @@ class App extends Component {
         {
           this.state.rsvp ? <RSVP /> : null
         }
+        {
+          this.state.guests ? <Guests /> : null
+        }
+        <Footer
+          goToGuests = {this.goToGuests.bind(this)}
+        />
+
       </div>
     )
   }

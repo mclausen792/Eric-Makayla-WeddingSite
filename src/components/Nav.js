@@ -19,7 +19,7 @@ import '../Styles/App.css';
           onClick = {this.props.goToRSVP}>
             <span>RSVP</span>
           </a>
-      </div>
+    </div>
     )
   }
 }

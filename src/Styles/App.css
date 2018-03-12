@@ -69,6 +69,18 @@ label {
   color: white;
 }
 
+.bottomNav {
+  color: black;
+}
+
+.bottomNav:hover {
+  color: white;
+}
+
+.guests {
+  color: white;
+}
+
 .registry {
   /* background-color: #A9DDED; */
   border: 2px solid #A9DDED;
