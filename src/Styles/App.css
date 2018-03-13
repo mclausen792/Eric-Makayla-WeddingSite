@@ -35,11 +35,19 @@ body {
   text-align: center;
   padding: 2%;
   font-size: 2vh;
-  /* margin-top: 2%; */
   margin-bottom: 2%;
   background-color: #E5E5E5;
   margin-left: 15%;
   border: 2px solid #EDDAFA;
+}
+
+.childNumber {
+  margin-right: 10.5%;
+}
+
+.attending {
+  display: flex;
+  flex-direction: row;
 }
 
 button {
@@ -70,19 +78,27 @@ label {
 }
 
 .bottomNav {
-  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.bottomNav:hover {
+.guestsLink {
   color: white;
+  width: 4%;
+  border: 2px solid red;
 }
 
-.guests {
+.guestsLink:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.guestsHead {
   color: white;
 }
 
 .registry {
-  /* background-color: #A9DDED; */
   border: 2px solid #A9DDED;
   background-image: url('possibleWeddingBackground.jpg');
   background-size: cover;
@@ -103,7 +119,7 @@ label {
 }
 
 .cbImage {
-  width: 30%;
+  width: 25%;
   margin-left: 4%;
   margin-top: 0;
   margin-bottom: 5%;
@@ -117,7 +133,7 @@ label {
 
 .amazonImg {
   width: 30%;
-  margin-left: 35%;
+  margin-left: 38%;
   margin-bottom: 8%;
 }
 
@@ -129,7 +145,7 @@ label {
 
 .zola {
   width: 30%;
-  margin-left: 6%;
+  margin-left: 5%;
   margin-top: 2%;
 }
 

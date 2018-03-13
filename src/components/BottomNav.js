@@ -8,7 +8,7 @@ import '../Styles/App.css';
       <div className="bottom-nav">
         <a className = "bottomNav" href = 'Guests'
           onClick = {this.props.goToGuests}>
-          <span> Guests</span>
+          <span className = "guestsLink"> Guests</span>
         </a>
     </div>
     )

@@ -5,8 +5,10 @@ import Header from './Header'
 import Invite from './Invite'
 import Registry from './Registry'
 import RSVP from './RSVP'
-import Guests from './Guests'
 import Footer from './Footer'
+import BottomNav from './BottomNav'
+import Homescreen from './Homescreen'
+
 
 
 class App extends Component {
@@ -51,16 +53,6 @@ class App extends Component {
     e.preventDefault()
   }
 
-  goToGuests = (e) =>{
-    this.setState({
-      home: false,
-      invite: false,
-      registry: false,
-      rsvp: false,
-      guests: true
-    })
-    e.preventDefault()
-  }
 
   render(){
     return(
@@ -80,11 +72,10 @@ class App extends Component {
           this.state.rsvp ? <RSVP /> : null
         }
         {
-          this.state.guests ? <Guests /> : null
+          this.state.home ? <Homescreen /> : null
         }
-        <Footer
-          goToGuests = {this.goToGuests.bind(this)}
-        />
+        
+
 
       </div>
     )
