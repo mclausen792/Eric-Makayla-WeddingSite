@@ -74,8 +74,6 @@ class App extends Component {
         {
           this.state.home ? <Homescreen /> : null
         }
-        
-
 
       </div>
     )

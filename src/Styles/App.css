@@ -68,34 +68,52 @@ label {
   margin-bottom: 0;
 }
 
-.images {
-  display: flex;
-  flex-direction: row;
-}
-
 .invite {
   color: white;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  height: 74vh;
+  align-items: flex-end;
+}
+
+.guests {
+  background-color: black;
+  width: 50vw;
+  height: 67vh;
+  border: 2px solid #A9DDED;
+  border-radius: 10%;
+  margin-bottom: .5%;
+}
+
+.guestsHead {
+  color: white;
+  text-align: center;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
 }
 
 .bottomNav {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  text-decoration: none;
+  width: 4%;
 }
 
 .guestsLink {
-  color: white;
+  color: black;
   width: 4%;
-  border: 2px solid red;
 }
 
 .guestsLink:hover {
   color: white;
   text-decoration: underline;
-}
-
-.guestsHead {
-  color: white;
 }
 
 .registry {
@@ -123,12 +141,6 @@ label {
   margin-left: 4%;
   margin-top: 0;
   margin-bottom: 5%;
-}
-
-.tinggly {
-  width: 20%;
-  margin-left: 12%;
-  margin-top: 5%;
 }
 
 .amazonImg {

@@ -34,9 +34,9 @@ class Homescreen extends Component {
         {
           this.state.guests ? <Guests /> : null
         }
-      <Footer
-        goToGuests = {this.goToGuests.bind(this)}
-      />
+        <Footer
+          goToGuests = {this.goToGuests.bind(this)}
+        />
     </div>
     );
   }
