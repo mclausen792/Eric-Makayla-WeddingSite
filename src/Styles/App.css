@@ -3,6 +3,18 @@ body {
   background-size: cover;
 }
 
+.invite {
+  border: 2px solid #A9DDED;
+  background-image: url('WeddingInvite.png');
+  background-size: 50vw 67vh;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 67vh;
+  margin-left: 25%;
+  margin-top: 3%;
+  border-radius: 10%;
+}
+
 .rsvp {
   border: 2px solid #A9DDED;
   background-image: url('possibleWeddingBackground.jpg');
@@ -132,7 +144,6 @@ label {
   font-family: 'Abel', sans-serif;
   font-size: 6vh;
   color: #E5E5E5;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   margin-top: 2%;
 }
 
@@ -144,8 +155,8 @@ label {
 }
 
 .amazonImg {
-  width: 30%;
-  margin-left: 38%;
+  width: 25%;
+  margin-left: 42%;
   margin-bottom: 8%;
 }
 

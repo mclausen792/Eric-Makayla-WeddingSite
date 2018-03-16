@@ -6,7 +6,6 @@ class Invite extends Component {
   render() {
     return (
       <div className="invite">
-        <h1 className = "inviteHead"> Invite </h1>
 
       </div>
     );
