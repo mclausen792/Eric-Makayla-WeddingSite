@@ -57,6 +57,7 @@ class App extends Component {
   render(){
     return(
       <div className = 'App'>
+
         <Header
           goToDetails = {this.goToDetails.bind(this)}
           goToRegistry = {this.goToRegistry.bind(this)}
@@ -74,6 +75,7 @@ class App extends Component {
         {
           this.state.home ? <Homescreen /> : null
         }
+
 
       </div>
     )

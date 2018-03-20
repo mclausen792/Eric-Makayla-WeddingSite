@@ -1,9 +1,199 @@
 body {
   background-image: url('possibleWeddingBackground.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+  padding: 0;
+  color: #EDDAFA;
+}
+
+.header-title {
+  font-size: 350%;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0;
+  margin-top: 4%;
+}
+
+.date {
+  font-size: 240%;
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+  margin-bottom: 4%;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.topNav {
+  font-size: 150%;
+  font-family: 'Abel', sans-serif;
+  margin-top: 0;
+  margin-right: 4%;
+  margin-left: 4%;
+  text-decoration: underline;
+  color: #E5E5E5;
+}
+
+.bottomNav {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 4%;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  height: 74vh;
+  align-items: flex-end;
+  margin-top: .5%;
+}
+
+.guestsLink {
+  color: black;
+  width: 4%;
+}
+
+.guestsLink:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .invite {
+  border: 2px solid #A9DDED;
+  background-image: url('WeddingInvite.png');
+  background-size: 95vw 52vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 95vw;
+  height: 52vh;
+  margin-left: 0;
+  margin-top: 5%;
+  border-radius: 10%;
+}
+
+.registry {
+  border: 2px solid #A9DDED;
+  background-color: black;
+  background-size: cover;
+  margin-top: 5%;
+  margin-left: 10%;
+  border-radius: 10%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.registryHead {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 6vh;
+  color: #E5E5E5;
+  margin-top: 2%;
+}
+
+.cbImage {
+  width: 40%;
+  display: flex;
+  margin-left: 30%;
+  margin-top: 0;
+}
+
+.amazonImg {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 8%;
+}
+
+.rei {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.zola {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.rsvp {
+  border: 2px solid #A9DDED;
+  background-color: black;
+  background-position: center;
+  width: 67vw;
+  height: 55vh;
+  margin-top: 5%;
+  margin-left: 15%;
+  border-radius: 10%;
+}
+
+.rsvpHead {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 180%;
+  color: #E5E5E5;
+  margin-top: 2%;
+}
+
+.rsvpForm {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Abel', sans-serif;
+  font-size: 120%;
+}
+
+.rsvpInput {
+  width: 70%;
+  text-align: center;
+  padding: 4%;
+  font-size: 2vh;
+  margin-bottom: 2%;
+  background-color: #E5E5E5;
+  margin-left: 15%;
+  border: 2px solid #EDDAFA;
+}
+
+.childNumber {
+  margin-right: 10.5%;
+  font-size: 70%;
+}
+
+.adultNumber {
+  font-size: 70%;
+}
+
+/* .attending {
+  display: flex;
+  flex-direction: row;
+} */
+
+button {
+  margin-top: 2%;
+  width: 50%;
+  font-size: 80%;
+  padding: 2%;
+  background-color: #A9DDED;
+  color: black;
+  border: 2px solid #EDDAFA;
+  margin-left: 30%;
+}
+
+label {
+  color: #E5E5E5;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-bottom: 0;
+}
+
+/* .invite {
   border: 2px solid #A9DDED;
   background-image: url('WeddingInvite.png');
   background-size: 50vw 67vh;
@@ -11,7 +201,7 @@ body {
   width: 50vw;
   height: 67vh;
   margin-left: 25%;
-  margin-top: 3%;
+  margin-top: 1.5%;
   border-radius: 10%;
 }
 
@@ -89,6 +279,7 @@ label {
   justify-content: center;
   height: 74vh;
   align-items: flex-end;
+  margin-top: .5%;
 }
 
 .guests {
@@ -132,7 +323,7 @@ label {
   border: 2px solid #A9DDED;
   background-image: url('possibleWeddingBackground.jpg');
   background-size: cover;
-  width: 50vw;
+  width: 54vw;
   height: 67vh;
   margin-left: 25%;
   margin-top: 3%;
@@ -162,12 +353,12 @@ label {
 
 .rei {
   width: 20%;
-  margin-left: 35%;
+  margin-left: 40%;
   margin-bottom: 8%;
 }
 
 .zola {
-  width: 30%;
+  width: 25%;
   margin-left: 5%;
   margin-top: 2%;
 }
@@ -193,10 +384,6 @@ label {
   margin-bottom: 4%;
 }
 
-.App-intro {
-  font-size: large;
-}
-
 .nav {
   margin: 0;
   list-style-type: none;
@@ -213,4 +400,4 @@ label {
   margin-left: 4%;
   text-decoration: underline;
   color: #E5E5E5;
-}
+} */

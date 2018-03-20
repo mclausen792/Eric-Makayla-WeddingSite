@@ -5,6 +5,7 @@ import '../Styles/App.css';
 class Invite extends Component {
   render() {
     return (
+
       <div className="invite">
 
       </div>
