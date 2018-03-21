@@ -1,11 +1,10 @@
-body {
-  background-color: black;
+html {
+  margin: 0;
   background-image: url('possibleWeddingBackground.jpg');
-  background-size: 255%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  backface-visibility: visible;
 }
 
 .app-header {
