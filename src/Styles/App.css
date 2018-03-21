@@ -1,9 +1,11 @@
 body {
+  background-color: black;
   background-image: url('possibleWeddingBackground.jpg');
-  background-size: cover;
+  background-size: 255%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-attachment: fixed;
+  backface-visibility: visible;
 }
 
 .app-header {
@@ -13,14 +15,14 @@ body {
 }
 
 .header-title {
-  font-size: 350%;
+  font-size: 300%;
   font-family: 'Great Vibes', cursive;
   margin-bottom: 0;
   margin-top: 4%;
 }
 
 .date {
-  font-size: 240%;
+  font-size: 200%;
   font-family: 'Sacramento', cursive;
   margin-top: 0;
   margin-bottom: 4%;
@@ -53,9 +55,8 @@ body {
 .home {
   display: flex;
   justify-content: center;
-  height: 74vh;
   align-items: flex-end;
-  margin-top: .5%;
+  margin-top: 150%;
 }
 
 .guestsLink {
@@ -84,11 +85,11 @@ body {
 .registry {
   border: 2px solid #A9DDED;
   background-color: black;
-  background-size: cover;
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 6%;
+  margin-left: 15%;
   border-radius: 10%;
-  width: 80%;
+  width: 70%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
 }
@@ -128,24 +129,25 @@ body {
   border: 2px solid #A9DDED;
   background-color: black;
   background-position: center;
-  width: 67vw;
-  height: 55vh;
-  margin-top: 5%;
+  width: 70%;
+  margin-top: 6%;
   margin-left: 15%;
+  display: flex;
+  flex-direction: column;
   border-radius: 10%;
 }
 
 .rsvpHead {
   text-align: center;
   font-family: 'Abel', sans-serif;
-  font-size: 180%;
+  font-size: 145%;
   color: #E5E5E5;
-  margin-top: 2%;
 }
 
 .rsvpForm {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: 'Abel', sans-serif;
   font-size: 120%;
 }
@@ -154,10 +156,10 @@ body {
   width: 70%;
   text-align: center;
   padding: 4%;
-  font-size: 2vh;
+  font-size: 70%;
   margin-bottom: 2%;
   background-color: #E5E5E5;
-  margin-left: 15%;
+  margin-left: 10%;
   border: 2px solid #EDDAFA;
 }
 
@@ -170,20 +172,16 @@ body {
   font-size: 70%;
 }
 
-/* .attending {
-  display: flex;
-  flex-direction: row;
-} */
-
 button {
   margin-top: 2%;
+  margin-bottom: 2%;
   width: 50%;
   font-size: 80%;
   padding: 2%;
   background-color: #A9DDED;
   color: black;
   border: 2px solid #EDDAFA;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 label {
@@ -192,6 +190,8 @@ label {
   margin-left: 15%;
   margin-bottom: 0;
 }
+
+/* Desktop /*
 
 /* .invite {
   border: 2px solid #A9DDED;
