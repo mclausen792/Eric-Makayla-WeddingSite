@@ -4,7 +4,7 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: black;
 }
 
 .app-header {
@@ -75,9 +75,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 60vh;
-  /* margin-left: 15%; */
-  /* margin-top: 5%; */
+  height: 62vh;
   border-radius: 10%;
 }
 
@@ -189,7 +187,7 @@ label {
 
 /* Tablet */
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   html {
     background-position: bottom;
     margin-top: 0;
@@ -207,6 +205,14 @@ label {
   }
   .home {
     margin-top: 600%;
+  }
+  .invite {
+    background-size: 100% 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    border-radius: 10%;
   }
   .registry {
     background-image: url('possibleWeddingBackground.jpg');
@@ -255,21 +261,72 @@ label {
   .rsvpForm {
     font-size: 170%;
   }
+} */
+
+/* Desktop  */
+
+@media only screen and (min-width: 768px) {
+  html {
+    margin: 0;
+    background-image: url('possibleWeddingBackground.jpg');
+    background-size: cover;
+    background-position: top;
+  }
+  .header-title {
+    font-size: 400%;
+    margin-bottom: 0;
+    margin-top: 2%;
+  }
+  .topNav {
+    font-size: 100%;
+  }
+  .home {
+    margin-top: 37%;
+  }
+  .invite {
+    background-image: url('WeddingInvite.png');
+    background-size: 50vw 67vh;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 67vh;
+    margin-left: 25%;
+    margin-top: 1.5%;
+  }
+  .registry {
+    background-image: url('possibleWeddingBackground.jpg');
+    background-size: cover;
+    width: 54vw;
+    height: 67vh;
+    margin-left: 25%;
+    margin-top: 1.5%;
+  }
+  .registryHead {
+    margin-top: 1%;
+  }
+  .cbImage {
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  .amazonImg {
+    width: 25%;
+    margin-left: 42%;
+    margin-bottom: 8%;
+    margin-top: 0;
+  }
+  .rei {
+    width: 20%;
+    margin-left: 43%;
+    margin-bottom: 6%;
+  }
+  .zola {
+    width: 25%;
+    margin-left: 6%;
+  }
 }
 
-/* Desktop /*
-
-/* .invite {
-  border: 2px solid #A9DDED;
-  background-image: url('WeddingInvite.png');
-  background-size: 50vw 67vh;
-  background-repeat: no-repeat;
-  width: 50vw;
-  height: 67vh;
-  margin-left: 25%;
-  margin-top: 1.5%;
-  border-radius: 10%;
-}
+/*
 
 .rsvp {
   border: 2px solid #A9DDED;
@@ -340,13 +397,6 @@ label {
   color: white;
 }
 
-.home {
-  display: flex;
-  justify-content: center;
-  height: 74vh;
-  align-items: flex-end;
-  margin-top: .5%;
-}
 
 .guests {
   background-color: black;
@@ -362,47 +412,6 @@ label {
   text-align: center;
 }
 
-.bottom-nav {
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-}
-
-.bottomNav {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  width: 4%;
-}
-
-.guestsLink {
-  color: black;
-  width: 4%;
-}
-
-.guestsLink:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.registry {
-  border: 2px solid #A9DDED;
-  background-image: url('possibleWeddingBackground.jpg');
-  background-size: cover;
-  width: 54vw;
-  height: 67vh;
-  margin-left: 25%;
-  margin-top: 3%;
-  border-radius: 10%;
-}
-
-.registryHead {
-  text-align: center;
-  font-family: 'Abel', sans-serif;
-  font-size: 6vh;
-  color: #E5E5E5;
-  margin-top: 2%;
-}
 
 .cbImage {
   width: 25%;
@@ -411,23 +420,7 @@ label {
   margin-bottom: 5%;
 }
 
-.amazonImg {
-  width: 25%;
-  margin-left: 42%;
-  margin-bottom: 8%;
-}
 
-.rei {
-  width: 20%;
-  margin-left: 40%;
-  margin-bottom: 8%;
-}
-
-.zola {
-  width: 25%;
-  margin-left: 5%;
-  margin-top: 2%;
-}
 
 .app-header {
   text-align: center;
