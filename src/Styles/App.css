@@ -393,7 +393,80 @@ label {
 
 @media only screen and (min-width: 1200px) {
   html {
-    background-color: red;
-    background-image: none;
+    background-image: url('possibleWeddingBackground.jpg');
+    background-size: cover;
+    background-position: top;
+  }
+  .header-title {
+    font-size: 350%;
+  }
+  .date {
+    font-size: 200%;
+  }
+  .topNav {
+    font-size: 100%;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .home {
+    margin-top: 37%;
+  }
+  .invite {
+    background-size: 50vw 70vh;
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+  }
+  .registry {
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+  }
+  .cbImage {
+    width: 25%;
+    margin-left: 4%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .amazonImg {
+    width: 25%;
+    margin-left: 42%;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .rei {
+    width: 25%;
+    margin-left: 40%;
+    margin-bottom: 7%;
+  }
+  .zola {
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 15%;
+  }
+  .rsvp {
+    width: 50vw;
+    height: 70vh;
+    margin-left: 25%;
+  }
+  .rsvpHead {
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 200%;
+  }
+  .rsvpForm {
+    font-size: 150%;
+  }
+  .rsvpInput {
+    padding: 2%;
+  }
+  .childNumber {
+    margin-right: 13.5%;
+  }
+  button {
+    width: 30%;
+    font-size: 80%;
+    padding: 1%;
+    margin-left: 35%;
   }
 }
