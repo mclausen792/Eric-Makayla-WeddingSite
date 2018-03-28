@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Great+Vibes|Sacramento');
 html {
   margin: 0;
   background-image: url('possibleWeddingBackground.jpg');
@@ -188,84 +189,6 @@ label {
 
 /* Tablet */
 
-/* @media only screen and (min-width: 600px) {
-  html {
-    background-position: bottom;
-    margin-top: 0;
-  }
-  .header-title {
-    font-size: 550%;
-    margin-top: 1%;
-  }
-  .date {
-    font-size: 300%;
-  }
-  .topNav {
-    font-size: 250%;
-    margin-top: 0;
-  }
-  .home {
-    margin-top: 600%;
-  }
-  .invite {
-    background-size: 100% 70vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 70vh;
-    border-radius: 10%;
-  }
-  .registry {
-    background-image: url('possibleWeddingBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 80%;
-    margin-top: 0;
-    margin-left: 10%;
-  }
-  .rsvpHead {
-    text-align: center;
-  }
-  .cbImage {
-    width: 25%;
-    margin-left: 4%;
-    margin-top: 0;
-  }
-  .amazonImg {
-    width: 30%;
-    margin-left: 40%;
-    margin-top: 0;
-  }
-  .rei {
-    width: 30%;
-    margin-top: 0;
-    margin-bottom: 6%;
-  }
-  .zola {
-    width: 29%;
-    margin-left: 4%;
-    margin-top: 35%;
-  }
-  .rsvp {
-    border: 2px solid #A9DDED;
-    background-image: url('possibleWeddingBackground.jpg');
-    background-size: cover;
-    width: 80%;
-    margin-top: 0;
-    margin-left: 10%;
-    border-radius: 10%;
-  }
-  .rsvpHead {
-    font-size: 300%;
-    margin-bottom: 0;
-  }
-  .rsvpForm {
-    font-size: 170%;
-  }
-} */
-
-/* Desktop  */
-
 @media only screen and (min-width: 768px) {
   html {
     margin: 0;
@@ -391,6 +314,8 @@ label {
   }
 }
 
+/* Desktop */
+
 @media only screen and (min-width: 1200px) {
   html {
     background-image: url('possibleWeddingBackground.jpg');
@@ -399,6 +324,7 @@ label {
   }
   .header-title {
     font-size: 350%;
+    margin-top: 1.5%;
   }
   .date {
     font-size: 200%;
@@ -416,11 +342,13 @@ label {
     width: 50vw;
     height: 70vh;
     margin-left: 25%;
+    margin-top: .5%;
   }
   .registry {
     width: 50vw;
     height: 70vh;
     margin-left: 25%;
+    margin-top: .5%;
   }
   .cbImage {
     width: 25%;
@@ -448,6 +376,7 @@ label {
     width: 50vw;
     height: 70vh;
     margin-left: 25%;
+    margin-top: .5%;
   }
   .rsvpHead {
     margin-top: 2%;
