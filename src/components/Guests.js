@@ -7,7 +7,7 @@ class Guests extends Component {
     return (
       <div className="guests">
         <h1 className = "guestsHead"> Guests </h1>
-
+<span>Welcome to the guests page</span>
       </div>
     );
   }

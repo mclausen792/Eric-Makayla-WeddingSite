@@ -5,8 +5,6 @@ import Header from './Header'
 import Invite from './Invite'
 import Registry from './Registry'
 import RSVP from './RSVP'
-import Footer from './Footer'
-import BottomNav from './BottomNav'
 import Homescreen from './Homescreen'
 
 

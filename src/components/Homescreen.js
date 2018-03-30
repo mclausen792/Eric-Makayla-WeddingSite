@@ -27,6 +27,15 @@ class Homescreen extends Component {
     e.preventDefault()
   }
 
+  async componentDidMount() {
+        const guests = await fetch('https://infinite-mountain-41867.herokuapp.com/guests')
+        const guestsJSON = await guests.json()
+        this.setState({guestsData: guestsJSON})
+        console.log('is this working');
+        console.log(this.state.guestsData);
+  }
+
+
   render() {
     return (
       <div className='home'>

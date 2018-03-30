@@ -324,7 +324,7 @@ label {
   }
   .header-title {
     font-size: 350%;
-    margin-top: 1.5%;
+    margin-top: 1%;
   }
   .date {
     font-size: 200%;
@@ -397,5 +397,8 @@ label {
     font-size: 80%;
     padding: 1%;
     margin-left: 35%;
+  }
+  .guests {
+    color: white;
   }
 }
