@@ -297,18 +297,6 @@ label {
     border: 2px solid #EDDAFA;
     margin-left: 30%;
   }
-  .guests {
-    background-color: black;
-    width: 50vw;
-    height: 67vh;
-    border: 2px solid #A9DDED;
-    border-radius: 10%;
-    margin-bottom: .5%;
-  }
-  .guestsHead {
-    color: white;
-    text-align: center;
-  }
   .home {
     margin-top: 100%;
   }
@@ -335,7 +323,7 @@ label {
     margin-left: 3%;
   }
   .home {
-    margin-top: 37%;
+    margin-top: 0;
   }
   .invite {
     background-size: 50vw 70vh;
@@ -400,5 +388,15 @@ label {
   }
   .guests {
     color: white;
+    background-color: black;
+    width: 50vw;
+    height: 70vh;
+    border: 2px solid #A9DDED;
+    border-radius: 10%;
+    margin-top: 1%;
+  }
+  .guestsHead {
+    color: white;
+    text-align: center;
   }
 }
