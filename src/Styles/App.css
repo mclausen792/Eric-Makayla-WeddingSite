@@ -322,21 +322,18 @@ label {
     margin-right: 3%;
     margin-left: 3%;
   }
-  .home {
-    margin-top: 0;
-  }
   .invite {
     background-size: 50vw 70vh;
     width: 50vw;
     height: 70vh;
     margin-left: 25%;
-    margin-top: .5%;
+    margin-top: 1.5%;
   }
   .registry {
     width: 50vw;
     height: 70vh;
     margin-left: 25%;
-    margin-top: .5%;
+    margin-top: 1.5%;
   }
   .cbImage {
     width: 25%;
@@ -364,7 +361,7 @@ label {
     width: 50vw;
     height: 70vh;
     margin-left: 25%;
-    margin-top: .5%;
+    margin-top: 1.5%;
   }
   .rsvpHead {
     margin-top: 2%;
@@ -385,18 +382,5 @@ label {
     font-size: 80%;
     padding: 1%;
     margin-left: 35%;
-  }
-  .guests {
-    color: white;
-    background-color: black;
-    width: 50vw;
-    height: 70vh;
-    border: 2px solid #A9DDED;
-    border-radius: 10%;
-    margin-top: 1%;
-  }
-  .guestsHead {
-    color: white;
-    text-align: center;
   }
 }

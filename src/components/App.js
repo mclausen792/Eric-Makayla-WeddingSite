@@ -5,7 +5,7 @@ import Header from './Header'
 import Invite from './Invite'
 import Registry from './Registry'
 import RSVP from './RSVP'
-import Homescreen from './Homescreen'
+
 
 
 
@@ -70,10 +70,6 @@ class App extends Component {
         {
           this.state.rsvp ? <RSVP /> : null
         }
-        {
-          this.state.home ? <Homescreen /> : null
-        }
-
 
       </div>
     )
