@@ -27,13 +27,9 @@ class Homescreen extends Component {
     e.preventDefault()
   }
 
-  
-
-
   render() {
     return (
       <div className='home'>
-
         {
           this.state.guests ? <Guests /> : null
         }
