@@ -11,6 +11,8 @@ class RSVP extends Component {
       headers:{
         'Content-Type': 'application/json',
         'Accept': 'application/json',
+        'Access-Control-Allow-Methods': "GET,HEAD,OPTIONS,POST,PUT",
+        'Access-Control-Allow-Origin':"*"
       }
     })
     console.log(response);
@@ -20,11 +22,11 @@ class RSVP extends Component {
   submitRSVP = (e) => {
       e.preventDefault();
       let newRSVP = {
-          "first": e.target.first.value,
-          "last": e.target.last.value,
-          "attending": e.target.attending.value,
-          "children": e.target.children.value,
-          "adults": e.target.adults.value,
+          first: e.target.first.value,
+          last: e.target.last.value,
+          attending: e.target.attending.value,
+          children: e.target.children.value,
+          adults: e.target.adults.value,
       }
       console.log(newRSVP);
       this.createRSVP(newRSVP)

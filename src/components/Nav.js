@@ -23,4 +23,4 @@ import '../Styles/App.css';
     )
   }
 }
-export default Nav
+export default Nav;
