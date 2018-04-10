@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Styles/App.css';
 
- class Nav extends Component {
+ export default class Nav extends Component {
   render(){
     return(
       <div className="nav">
@@ -23,4 +23,3 @@ import '../Styles/App.css';
     )
   }
 }
-export default Nav;

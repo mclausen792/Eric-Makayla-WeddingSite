@@ -3,8 +3,8 @@ html {
   margin: 0;
   background-image: url('possibleWeddingBackground.jpg');
   background-size: contain;
-  background-position: center;
-  height: 100%;
+  background-position: bottom;
+  height: 80%;
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -16,14 +16,14 @@ html {
 }
 
 .header-title {
-  font-size: 300%;
+  font-size: 250%;
   font-family: 'Great Vibes', cursive;
   margin-bottom: 0;
   margin-top: 6%;
 }
 
 .date {
-  font-size: 200%;
+  font-size: 190%;
   font-family: 'Sacramento', cursive;
   margin-top: 0;
   margin-bottom: 4%;
@@ -46,28 +46,11 @@ html {
   color: #E5E5E5;
 }
 
-.bottomNav {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  width: 4%;
-}
-
 .home {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   margin-top: 150%;
-}
-
-.guestsLink {
-  color: black;
-  width: 4%;
-}
-
-.guestsLink:hover {
-  color: white;
-  text-decoration: underline;
 }
 
 .invite {
@@ -113,8 +96,9 @@ html {
 }
 
 .rei {
-  width: 40%;
+  width: 35%;
   margin-left: 30%;
+  margin-bottom: 10%;
 }
 
 .zola {
