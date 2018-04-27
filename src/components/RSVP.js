@@ -3,7 +3,15 @@ import '../Styles/App.css';
 
 
 class RSVP extends Component {
+constructor(){
+  super()
 
+  this.handleClick = this.handleClick.bind(this)
+}
+
+handleClick(){
+  console.log('Success');
+}
   submitRSVP = (e) => {
       e.preventDefault();
       let newRSVP = {
@@ -37,7 +45,7 @@ class RSVP extends Component {
     return (
       <div className="rsvp">
         <h1 className = "rsvpHead"> Please RSVP by November 1, 2018 </h1>
-        <form className = "rsvpForm" onSubmit={this.submitRSVP}>
+        <form className = "rsvpForm" onSubmit={this.submitRSVP} formMethod = "POST">
           <label>Names of Invited Guests</label>
           <input type = "text" id = "first" className = "rsvpInput" placeholder="First Name" name = "first" formMethod = "POST" required/>
           <input type = "text" id = "last" className = "rsvpInput" placeholder="Last Name" name = "last" formMethod = "POST" required/>
@@ -47,7 +55,7 @@ class RSVP extends Component {
           <input type = "number" id="adults" className = "rsvpInput adultNumber" placeholder = "# of Adults" name="adults" formMethod = "POST" required/>
           <input type = "number" id="children" className = "rsvpInput childNumber" placeholder = "# of Children" name="children" formMethod = "POST" required/>
           </div>
-          <button type = "submit">Submit</button>
+          <button type = "submit" onClick = {this.handleClick}>Submit</button>
         </form>
       </div>
     );
