@@ -350,17 +350,17 @@ label {
   }
   .rsvpHead {
     margin-top: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     font-size: 200%;
   }
   .rsvpForm {
     font-size: 150%;
   }
   .rsvpInput {
-    padding: 2%;
+    padding: 1.5%;
   }
   .childNumber {
-    margin-right: 13.5%;
+    margin-right: 14.5%;
   }
   button {
     width: 30%;
