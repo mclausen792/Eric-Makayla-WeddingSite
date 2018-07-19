@@ -29,6 +29,7 @@ handleClick(){
       method: 'POST',
       body: JSON.stringify(rsvp),
       headers:{
+        'Access-Control-Allow-Origin:' *,
         'Content-Type': 'application/json',
         'Accept': 'application/json',
 
