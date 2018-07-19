@@ -25,11 +25,10 @@ handleClick(){
       this.createRSVP(newRSVP)
     }
   async createRSVP(rsvp){
-  const response = await fetch('https://infinite-mountain-41867.herokuapp.com/guests', {
+  const response = await fetch('https://galvanize-cors.herokuapp.com/https://infinite-mountain-41867.herokuapp.com/guests', {
       method: 'POST',
       body: JSON.stringify(rsvp),
       headers:{
-        'Access-Control-Allow-Origin:' *,
         'Content-Type': 'application/json',
         'Accept': 'application/json',
 
